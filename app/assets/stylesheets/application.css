@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+ body{
+   background: #e5eaee;
+ }
+
+ .white {
+    color: white;
+}
+
+.container{
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#indexcontainer{
+  background-image: url('https://lh4.googleusercontent.com/B34XGHG69unhG11pUG59dgEss0U17qGuevtMFJTnmV6nS3OEW2wr8iamquiC77w2UTamsN1MKcPqlAE=w1259-h634-rw');
+  height: 600px;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+#title{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 51px;
+  color:black;
+}
+
+#titlecontainer{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 51px;
+  color:black;
+  top: 50px;
+}

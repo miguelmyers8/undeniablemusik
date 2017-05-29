@@ -1,4 +1,27 @@
-<% @song.each do |f| %>
-  <%= f.audio.url %>
-  <%= f.caption %>
-<% end %>
+<h1>Music</h1>
+
+<div class='container'>
+
+<table>
+  <thead>
+    <tr>
+      <th>Names</th>
+      <th>Songs</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @song.each do |f| %>
+      <tr>
+        <td><%= f.caption %></td>
+        <td><%=audio_tag(f.audio.url, autoplay: false, controls: true)  %> <br></td>
+
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+</div>
