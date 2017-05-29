@@ -6,15 +6,23 @@ body{
 <h3 id='title'>U / M</h3>
 <div id='indexcontainer' class='container'>
     <div class="top-menu">
-    <span class="menu"><h2 class="glyphicon glyphicon-menu-hamburger white"> </h2></span>
-      <ul style="display: none;">
-        <li><%=link_to 'Music', songs_path %></li>
-      </ul>
+      <span class="menu"><h2 class="glyphicon glyphicon-menu-hamburger white"> </h2></span>
+
+        <div style="display:none" id="background">
+          <ul style="display: none;"><br>
+            <li><%=link_to 'Music', songs_path %></li><br>
+            <li><%=link_to 'Artist' %></li><br>
+            <li><%=link_to 'Founders' %></li><br>
+            <li><%=link_to 'About' %></li><br>
+          </ul>
+        </div>
+
     </div>
 </div>
 <!--script for menu-->
 		<script>
 		$("span.menu").click(function(){
+      document.getElementById('background').style.display = 'block'
 			$(".top-menu ul").slideToggle(500, function(){
 					});
 					});

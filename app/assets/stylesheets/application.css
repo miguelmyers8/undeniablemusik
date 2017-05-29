@@ -17,6 +17,10 @@
    background: #e5eaee;
  }
 
+ul{
+  text-align: center;
+  list-style-type: none;
+}
  .white {
     color: white;
 }
@@ -26,6 +30,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+#background{
+  background: #e5eaee;
+}
+
 
 #indexcontainer{
   background-image: url('https://lh4.googleusercontent.com/B34XGHG69unhG11pUG59dgEss0U17qGuevtMFJTnmV6nS3OEW2wr8iamquiC77w2UTamsN1MKcPqlAE=w1259-h634-rw');
