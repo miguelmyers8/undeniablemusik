@@ -48,13 +48,13 @@ height: 435px;
  background-repeat: no-repeat;
 }
 
+#ownerscontainerindex{
+  padding-left: 70px;
+}
 
  #testing {
    border:2px solid red;
  }
- /*body{
-   background: #e5eaee;
- }*/
 
 ul{
   text-align: center;
