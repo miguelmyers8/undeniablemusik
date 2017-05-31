@@ -1,7 +1,13 @@
 <div class='container'>
+  <div class="flex-container">
+    <div id='rob' class="col-sm-4"></div>
+    <div id='amhad' class="col-sm-3"></div>
+    <div id='youn' class="col-sm-4"></div>
+  </div>
+</div>
 
 <p id="notice"><%= notice %></p>
-
+<#%=link_to (image_tag owner.image.url(:large) ), owner_path(owner) %>
 <h1>Owners</h1>
 
 <table>
@@ -15,6 +21,8 @@
 
   <tbody>
     <% @owners.each do |owner| %>
+
+
       <tr>
         <td><%= owner.name %></td>
         <td><%= owner.content %></td>
@@ -29,4 +37,3 @@
 <br>
 
 <%= link_to 'New Owner', new_owner_path %>
-<div>

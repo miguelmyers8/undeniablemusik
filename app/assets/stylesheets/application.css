@@ -13,6 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+ #rob{
+
+
+   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6278.jpg') ;
+   height: 435px;
+   background-position: center  ;
+   background-repeat: no-repeat;
+
+ }
+
+
+#youn{
+
+
+
+background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/003/large/IMG_6382.jpg');
+height: 428px;
+top:2px;
+background-position: center ;
+background-repeat: no-repeat;
+
+
+}
+
+#amhad{
+top:-2px;
+margin: 5px;
+ background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/004/large/IMG_6214.jpg');
+height: 435px;
+
+ background-position: right -60px top ;
+ background-repeat: no-repeat;
+}
+
+
+ #testing {
+   border:2px solid red;
+ }
  body{
    background: #e5eaee;
  }
@@ -33,6 +72,7 @@ ul{
 
 #background{
   background: #e5eaee;
+
 }
 
 
