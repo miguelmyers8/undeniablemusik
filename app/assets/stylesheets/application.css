@@ -14,11 +14,24 @@
  *= require_self
  */
 
+ #robshowimg{
+   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6281.jpg');
+   height: 600px;
+   background-repeat: no-repeat;
+ }
+
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  color:black;
+}
+
  #rob{
 
 
    background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6278.jpg') ;
-   height: 435px;
+   height: 439px;
+   bottom: 3px;
    background-position: center  ;
    background-repeat: no-repeat;
 
