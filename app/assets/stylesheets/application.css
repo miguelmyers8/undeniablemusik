@@ -18,23 +18,34 @@
    background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6281.jpg');
    height: 600px;
    background-repeat: no-repeat;
+
+
  }
 
+ #robimage2{
+   position: absolute;
+   top:575px;
+   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/006/large/robblue.jpg') ;
+   height: 600px;
+   background-repeat: no-repeat;
+ }
 
-h1{
+#robpagetext{
+  text-align: center;
+
+}
+
+h3{
   font-family: 'Ubuntu', sans-serif;
   color:black;
 }
 
  #rob{
-
-
    background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6278.jpg') ;
    height: 439px;
    bottom: 3px;
    background-position: center  ;
    background-repeat: no-repeat;
-
  }
 
 
