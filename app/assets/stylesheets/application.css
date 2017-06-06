@@ -14,26 +14,55 @@
  *= require_self
  */
 
- #robshowimg{
-   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6281.jpg');
+ #younshowimg{
+   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/003/large/IMG_6184.jpg');
    height: 600px;
    background-repeat: no-repeat;
+ }
 
+
+ #younpagetext{
+   text-align: center;
 
  }
 
- #robimage2{
+ #younimage2{
    position: absolute;
-   top:575px;
-   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/008/large/IMG_3227.jpg') ;
+   top:567px;
+   background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/010/large/IMG_6252.jpg') ;
    height: 600px;
    background-repeat: no-repeat;
  }
 
-#robpagetext{
+
+
+
+
+
+
+#amhadshowimg{
+  background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/001/large/IMG_6204.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+
+#amhadpagetext{
   text-align: center;
 
 }
+
+#amhadimage2{
+  position: absolute;
+  top:567px;
+  background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/009/large/IMG_6256.jpg') ;
+  height: 600px;
+  background-repeat: no-repeat;
+
+}
+
+
+
 
 h3{
   font-family: 'Ubuntu', sans-serif;
@@ -50,16 +79,11 @@ h3{
 
 
 #youn{
-
-
-
 background-image: url('https://s3.amazonaws.com/undeniablemusik/owners/images/000/000/003/large/IMG_6382.jpg');
 height: 428px;
 top:2px;
 background-position: center ;
 background-repeat: no-repeat;
-
-
 }
 
 #amhad{
