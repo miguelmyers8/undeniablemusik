@@ -58,7 +58,9 @@
 
 }
 */
-
+a{
+  text-decoration: none !important;
+}
 
 ul#menu li {
     display:inline;
@@ -77,15 +79,6 @@ ul#menu li {
   right: 1px;
 }
 
-#younpagetext{
-  text-align: center;
-  margin: auto;
-     width: 40%;
-position: absolute;
-     padding: 10px;
-     right: 80px;
-     top: 350px;
-}
 
 h3{
   font-family: 'Ubuntu', sans-serif;
@@ -123,9 +116,6 @@ height: 435px;
   padding-left: 70px;
 }
 
- #testing {
-   border:2px solid red;
- }
 
 ul{
   text-align: center;
