@@ -71,6 +71,12 @@ ul#menu li {
   right: 1px;
 }
 
+#showhr{
+  width: 80%;
+  position: relative;
+  right: 1px;
+}
+
 #younpagetext{
   text-align: center;
   margin: auto;
