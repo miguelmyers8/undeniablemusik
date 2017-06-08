@@ -59,6 +59,18 @@
 }
 */
 
+
+ul#menu li {
+    display:inline;
+    padding-right: 20px;
+}
+
+#navhr{
+  width: 50%;
+  position: relative;
+  right: 1px;
+}
+
 #younpagetext{
   text-align: center;
   margin: auto;
