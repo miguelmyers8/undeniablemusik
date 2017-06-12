@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :owners
+  resources :galleries
   resources :songs
   root to: 'visitors#index'
   get '/visitors/rob'

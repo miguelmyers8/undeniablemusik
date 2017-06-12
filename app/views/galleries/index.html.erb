@@ -1,0 +1,33 @@
+
+<style>
+.col-xs-4{
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+</style>
+
+<p id="notice"><%= notice %></p>
+
+<h1>US</h1>
+
+
+<div class="container">
+  <div class="row">
+    <% @galleries.each do |gallery| %>
+
+        <%=image_tag gallery.image, class: 'col-xs-4'%>
+
+      <div style="display:none">
+        <%= link_to 'Show', gallery %>
+        <%= link_to 'Edit', edit_gallery_path(gallery) %>
+        <%= link_to 'Destroy', gallery, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+
+    <% end %>
+
+<br>
+</div>
+</div>
+<%= link_to 'New Gallery', new_gallery_path %>
