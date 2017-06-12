@@ -19,7 +19,7 @@ h1{
 
         <%=image_tag gallery.image, class: 'col-xs-4'%>
 
-      <div >
+      <div style="display:none">
         <%= link_to 'Show', gallery %>
         <%= link_to 'Edit', edit_gallery_path(gallery) %>
         <%= link_to 'Destroy', gallery, method: :delete, data: { confirm: 'Are you sure?' } %>
